@@ -1,0 +1,106 @@
+body {
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-repeat: no-repeat;
+  background: url(bg-pattern-bottom.png) bottom -800px right -150px no-repeat, url(bg-pattern-top.png) top -580px left -190px no-repeat;
+  background-color: #19A2AE;
+}
+
+span {
+  color: #6A6F81;
+}
+
+p {
+  line-height: 10px;
+}
+
+strong {
+  color: #2D3248;
+}
+
+hr {
+  background-color: #E6E6E6;
+  margin: 0;
+  border: 0;
+  height: 1px;
+}
+
+.main {
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  text-align: center;
+  bottom: 710px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container-top {
+  position: relative;
+}
+
+.image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.victor {
+  position: absolute;
+  left: 127px;
+  top: 92px;
+  border-radius: 100%;
+  border: 0.3rem solid;
+  border-color: white;
+}
+
+.paragraph {
+  margin-top: 85px;
+  margin-bottom: 30px;
+}
+
+.london {
+  color: #6A6F81;
+  font-size: 15px;
+}
+
+.bottom-container {
+  margin-top: 30px;
+  height: 70px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  letter-spacing: 1px;
+}
+
+.table-head {
+  color: #2D3248;
+  font-weight: bold;
+}
+
+.table-body {
+  color: #6A6F81;
+  font-size: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+    width: 375px;
+    background-position: center;
+    }
+}
